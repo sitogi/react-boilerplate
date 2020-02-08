@@ -4,8 +4,8 @@ import React, { FC } from 'react';
 import { css, jsx } from '@emotion/core';
 import { Card, Icon, Image } from 'semantic-ui-react';
 
-import Spinner from '../common/Spinner';
-import { Repository } from '../../services/github/models';
+import Spinner from 'components/common/Spinner';
+import { Repository } from 'services/github/models';
 
 const stats = css`
   margin-right: 1em;

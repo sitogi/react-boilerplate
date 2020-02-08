@@ -2,7 +2,7 @@ import axios from 'axios';
 import camelcaseKeys from 'camelcase-keys';
 import qs from 'qs';
 
-import { User, Repository } from './models';
+import { User, Repository } from 'services/github/models';
 
 interface ApiConfig {
   baseURL: string;

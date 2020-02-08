@@ -4,9 +4,9 @@ import React, { FC } from 'react';
 import { connect } from 'react-redux';
 import { jsx } from '@emotion/core';
 
-import RepositoriesSearch, { RepositoryListProps } from '../../components/Repositories/List';
-import { Repository } from '../../services/github/models';
-import { GithubState } from '../../reducer';
+import RepositoriesSearch, { RepositoryListProps } from 'components/Repositories/List';
+import { Repository } from 'services/github/models';
+import { GithubState } from 'reducer';
 
 interface StateProps {
   repositories: Repository[];

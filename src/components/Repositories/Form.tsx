@@ -4,7 +4,7 @@ import React, { FC, FormEvent } from 'react';
 import { jsx, css } from '@emotion/core';
 import { Button, Dropdown, Input } from 'semantic-ui-react';
 
-import { SearchRepositoriesParams } from '../../actions/github';
+import { SearchRepositoriesParams } from 'actions/github';
 
 const form = css`
   margin: 2em 0 4em;

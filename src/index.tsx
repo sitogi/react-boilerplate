@@ -5,10 +5,10 @@ import { applyMiddleware, compose, createStore } from 'redux';
 import { BrowserRouter } from 'react-router-dom';
 import createSagaMiddleware from 'redux-saga';
 
-import App from './App';
-import reducer from './reducer';
-import rootSaga from './sagas/github';
-import * as serviceWorker from './serviceWorker';
+import App from 'App';
+import reducer from 'reducer';
+import rootSaga from 'sagas/github';
+import * as serviceWorker from 'serviceWorker';
 
 import './styles/semantic.min.css';
 

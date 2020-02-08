@@ -6,10 +6,10 @@ import { Card, Header, Image } from 'semantic-ui-react';
 import capitalize from 'lodash/capitalize';
 import { sprintf } from 'sprintf-js';
 
-import pages from '../../pages';
-import { User } from '../../services/github/models';
-import HtmlTitle from '../common/HtmlTitle';
-import Spinner from '../common/Spinner';
+import pages from 'pages';
+import { User } from 'services/github/models';
+import HtmlTitle from 'components/common/HtmlTitle';
+import Spinner from 'components/common/Spinner';
 
 const members = css`
   margin: 2em 1em;

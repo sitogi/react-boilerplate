@@ -1,7 +1,7 @@
 import { AxiosError } from 'axios';
 
-import * as Model from '../services/github/models';
-import * as ActionType from './githubConstants';
+import * as Model from 'services/github/models';
+import * as ActionType from 'actions/githubConstants';
 
 export interface GetMembersParams {
   companyName: string;

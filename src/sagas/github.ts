@@ -1,8 +1,8 @@
 import { all, call, fork, put, takeLatest } from 'redux-saga/effects';
 
-import * as Action from '../actions/githubConstants';
-import { getMembers, searchRepositories } from '../actions/github';
-import * as api from '../services/github/api';
+import * as Action from 'actions/githubConstants';
+import { getMembers, searchRepositories } from 'actions/github';
+import * as api from 'services/github/api';
 
 function* runGetMembers(action: ReturnType<typeof getMembers.start>) {
   const { companyName } = action.payload;

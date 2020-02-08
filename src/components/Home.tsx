@@ -5,8 +5,8 @@ import { jsx } from '@emotion/core';
 import { Link } from 'react-router-dom';
 import { List } from 'semantic-ui-react';
 
-import pages from '../pages';
-import { listItem } from './common/list';
+import pages from 'pages';
+import { listItem } from 'components/common/list';
 
 const Home: FC = () => (
   <div>

@@ -5,10 +5,10 @@ import { css, jsx } from '@emotion/core';
 import { Helmet } from 'react-helmet';
 import { Header } from 'semantic-ui-react';
 
-import RepositoryForm from '../../containers/Repositories/Form';
-import RepositoryList from '../../containers/Repositories/List';
-import pages from '../../pages';
-import { menuHeader } from '../common/heading';
+import RepositoryForm from 'containers/Repositories/Form';
+import RepositoryList from 'containers/Repositories/List';
+import pages from 'pages';
+import { menuHeader } from 'components/common/heading';
 
 const wrapper = css`
   margin: 2em 1em;

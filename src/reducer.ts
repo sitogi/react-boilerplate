@@ -1,9 +1,9 @@
 import { Reducer } from 'redux';
 import { AxiosError } from 'axios';
 
-import { GithubAction } from './actions/github';
-import * as ActionType from './actions/githubConstants';
-import * as Model from './services/github/models';
+import { GithubAction } from 'actions/github';
+import * as ActionType from 'actions/githubConstants';
+import * as Model from 'services/github/models';
 
 export interface GithubState {
   users: Model.User[];

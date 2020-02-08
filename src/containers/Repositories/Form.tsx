@@ -5,9 +5,9 @@ import { connect } from 'react-redux';
 import { bindActionCreators, Dispatch } from 'redux';
 import { jsx } from '@emotion/core';
 
-import RepositoryForm, { RepositoryFormProps, RepositoryFormValues } from '../../components/Repositories/Form';
-import { GithubState } from '../../reducer';
-import { searchRepositories } from '../../actions/github';
+import RepositoryForm, { RepositoryFormProps, RepositoryFormValues } from 'components/Repositories/Form';
+import { GithubState } from 'reducer';
+import { searchRepositories } from 'actions/github';
 
 interface StateProps {
   isLoading: boolean;

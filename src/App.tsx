@@ -6,11 +6,11 @@ import { Helmet } from 'react-helmet';
 import { Route, Switch, useHistory } from 'react-router';
 import { Menu, Sidebar, Segment } from 'semantic-ui-react';
 
-import pages from './pages';
-import Home from './components/Home';
-import Companies from './components/Companies';
-import CompanyMembers from './containers/Companies/Members';
-import RepositorySearch from './components/Repositories/Search';
+import pages from 'pages';
+import Home from 'components/Home';
+import Companies from 'components/Companies';
+import CompanyMembers from 'containers/Companies/Members';
+import RepositorySearch from 'components/Repositories/Search';
 
 const baseCss = css`
   height: 100vh;

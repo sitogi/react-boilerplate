@@ -6,7 +6,7 @@ import { jsx } from '@emotion/core';
 import capitalize from 'lodash/capitalize';
 import { List } from 'semantic-ui-react';
 
-import { listItem } from '../common/list';
+import { listItem } from 'components/common/list';
 
 const companies = ['facebook', 'airbnb', 'netflix'];
 
